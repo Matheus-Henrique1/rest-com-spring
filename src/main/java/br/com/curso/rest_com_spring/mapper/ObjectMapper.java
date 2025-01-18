@@ -5,7 +5,7 @@ import org.modelmapper.ModelMapper;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ObjectMapper {
+public abstract class ObjectMapper {
 
     private static ModelMapper mapper = new ModelMapper();
 
